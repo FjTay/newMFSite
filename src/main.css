@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#menuWrapper {
+    width: 100vw;
+    background: green;
+}
+
+#menu {
+    background: red;
+    margin: auto;
+    width: 80vw;
+    min-width: 900px;
+}
+
+#wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    background: lightblue;
+}
+
+#headerWrapper {
+    width: 100vw;
+    height: auto;
+    background: darkmagenta;
+}
+
+#header {
+    background: blueviolet;
+    height: 80px;
+    width: 80vw;
+    min-width: 900px;
+    margin: auto;
+}
+
+#headerLeft, #headerRight {
+    background: blue;
+    width: 25%;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+}
+
+#headerCenter{
+    background: violet;
+    width: 50%;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+}
+
+.display {
+    width: 80vw;
+    min-width: 900px;
+    min-height: 100vh;
+    height: auto;
+    margin: auto;
+    background:rgb(152, 152, 243)
+}
+
+.displayWithTags {
+    width: 60vw;
+    min-width: 675px;
+    min-height: 100vh;
+    height: auto;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tagsContainer {
+    width: 20vw;
+    min-width: 225px;
+    min-height: 100vh;
+    height: auto;
+    margin: auto;
+    background: red;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#footer {
+    width: 100vw;
+    background: blueviolet;
+    height: 50px;
+}
+
+#homepage {
+    background: lightgreen;
+}
+
+#titleArea {
+    width: 80vw;
+    min-width: 900px;
+    background: blueviolet;
+}
+
+#displayCategory{
+    background: lightpink;
+}
+
+#account{
+    background: limegreen;
+}
+
+#displayCategoryItems{
+    background: lightslategray;
+}
+
+#displayProduct {
+    background: lightcoral;
+}
+
+.menuItem {
+    width: 10.65%;
+    background: gold;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.selected {
+    background: green;
+}
+
+.menuItem:hover, .selected:hover {
+    cursor: pointer;
+    background: green;
+}
+
+.category{
+    background: cyan;
+    width: 200px;
+    min-width: 15vw;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.product{
+    background: coral;
+    width: 200px;
+    min-width: 15vw;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.productBody{
+    background: lightskyblue;
+    width: 100%;
+    height: auto;
+}
+
+.productImageFrame{
+    background: rgb(58, 75, 107);
+    width: 200px;
+    min-width: 15vw;
+}
+
+.productImage{
+    width: 200px;
+    min-width: 15vw;
+}
+
+.productFooter{
+    background: red;
+    width: 100%;
+    height: 20px;
+}
+
+.productAddToFav, .productRight {
+    background: purple;
+    width: 20%;
+    height: 20px;
+}
+
+.fav{
+    background: lightseagreen;
+}
+
+#favs{
+    background: lightseagreen;
+}
+
+#basket{
+    background: rgb(14, 77, 73);
+}
+
+.button{
+    background: lawngreen;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.bagSelected{
+    background: red;
+}
+
+.button:hover {
+    background: rgba(49, 95, 0, 0.897);
+    border-color: white;
+    cursor: pointer
+}
+
+.closeLine{
+    background: lawngreen;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonGroup {
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.line{
+    width: 80vw;
+    min-width: 900px;
+    height: auto;
+    background: red;
+    color: white;
+}
+
+.lineTH {
+    width: 100%;
+    background: green;
+}
+
+.lineInfo{
+    background: pink;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+#mainLogo {
+    width: 80px;
+    height: 80px;
+    background: darkblue;
+    cursor: pointer;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
+#mainLogoSelected {
+    width: 80px;
+    height: 80px;
+    background: red;
+    margin: auto;
+    cursor: pointer;
+}
+
+#topMenu {
+    background: brown;
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.topMenuItem {
+    background: palegoldenrod;
+    text-align: left;
+    height: 20px;
+}
+
+.topMenuItemSelected {
+    background: red;
+}
+
+.topMenuItemSelected:hover, .topMenuItem:hover {
+    cursor:pointer;
+    background: red;
+}
+
+#productDisplayLeft{
+    width: 50%;
+    height: auto;
+    min-height: 100vh;
+    background: pink;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#productDisplayRight{
+    width: 50%;
+    height: auto;
+    min-height: 100vh;
+    background: darkolivegreen;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tagZone {
+    width: 16vw;
+    min-width: 180px;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    background: green;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.tagCheckbox {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background:rgb(14, 77, 73);
+}
+
+.tagCheckbox label {
+    margin-left: 10px;
+}
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -3px;
+    left: 0;
+    border: 2px solid rgb(152, 152, 243);
+    background-color: white;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background: black;
+}
+
+input[type=checkbox]:disabled:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background: grey;
+}
+
+input[type=checkbox]:hover:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background: grey;
+}
+
+input[type=checkbox]:checked:hover:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background: black;
+}
+
+input[type=checkbox]:checked:hover::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background: grey;
+}
+
+input[type=checkbox]:active::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background: black;
+}
+
+input[type=checkbox]:checked:active:hover::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid red;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background: red;
+}
